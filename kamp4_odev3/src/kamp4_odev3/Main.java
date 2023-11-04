@@ -18,9 +18,9 @@ public class Main {
 		IGameService gameService = new GameServiceManager(new GameServiceAdapters());
 		GameInfo gameInfo = new GameInfo();
 		gameInfo.setId(61);
-		gameInfo.setNationality("54787495325");
-		gameInfo.setFirstName("gokhan");
-		gameInfo.setLastName("koc");
+		gameInfo.setNationality("547");
+		gameInfo.setFirstName("zehra");
+		gameInfo.setLastName("eryoldas");
 		gameInfo.setDateofBirth("2000");
 		gameService.save(gameInfo);
 		
